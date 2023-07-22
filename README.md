@@ -30,7 +30,7 @@ docker-compose up -d
 running
 mySql
 
-in my case use Xampp
+in my case use phpmyadmin and mysql
 ```
 
 ```bash
