@@ -7,11 +7,11 @@ Open CLI (Command Line Interface)
 
 Clone Repo
 
-git clone https://github.com/aryejfa/brutal-project
+git clone https://github.com/aryejfa/test-xsis.git
 ```
 
 ```bash
-cd brutal-project
+cd test-xsis
 ```
 
 ```bash
@@ -19,7 +19,7 @@ Open Redis Server and Running
 ```
 
 ```bash
-cd brutal-project/docker-graylog
+cd test-xsis/docker-graylog
 
 running grayLog
 
@@ -57,7 +57,7 @@ npm run test
 ```bash
 Run apps
 
-npm run serve
+npm run dev
 
 Endpoint CRUD movie
 http://localhost:3001

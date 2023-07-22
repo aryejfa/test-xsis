@@ -3,7 +3,7 @@ const winstonGelf = require('winston-gelf');
 require('winston-daily-rotate-file');
 
 var transport = new winston.transports.DailyRotateFile({
-    filename: 'log/app-%DATE%.log',
+    filename: 'logs/app-%DATE%.log',
     datePattern: 'YYYY-MM-DD',
     zippedArchive: true,
     maxSize: '20m',
